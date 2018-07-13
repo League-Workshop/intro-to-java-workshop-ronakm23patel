@@ -55,11 +55,11 @@ public class DragonFight {
 			//-- Tell the user that they lost
 			
 		if(playerhealth <= 0) {
-			JOptionPane.showMessageDialog(null, "YOU LOST!!!!!");
+			JOptionPane.showMessageDialog(null, "\THE DRAGON ATE YOUR SOUL!!!!!");
 		}
 		// 14. Else if the dragon's health is less than or equal to 0
 		else if(dragonhealth <= 0) {
-		JOptionPane.showMessageDialog(null, "YOU WON!!!!!!!");
+		JOptionPane.showMessageDialog(null, "YOU ATE THE DRAGONS SOUL!!!!!!!");
 		JOptionPane.showMessageDialog(null, "The dragon is dead and you earn a ton of gold!");	
 		}
 			//-- Tell the user that the dragon is dead and they took a ton of gold!
